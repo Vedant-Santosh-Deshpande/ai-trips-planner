@@ -1,0 +1,1 @@
+# ai-trips-planner
