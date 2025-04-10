@@ -58,16 +58,16 @@ ai-trip-planner/
 ## 🛠️ Setup Instructions
 
 \`\`\`bash
-# Clone the repository
+### Clone the repository
 git clone https://github.com/Vedant-Santosh-Deshpande/ai-trips-planner.git
 
-# Navigate into the folder
+### Navigate into the folder
 cd ai-trips-planner
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Run the app
+### Run the app
 npm run dev
 \`\`\`
 
