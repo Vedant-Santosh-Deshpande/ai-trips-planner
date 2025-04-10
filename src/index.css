@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/* .tags{
+    padding: 4px;
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 10px;
+    
+}
+.tags:hover{
+    
+} */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+
+.tags {
+    padding: 1rem; /* p-4 */
+    border: 1px solid #D1D5DB; /* border-gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* items-start */
+    text-align: center;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.tags:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* hover:shadow-lg */
+}
+
+.tags.selected {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* shadow-lg */
+    border-color: black; /* border-black */
+}
+
+
+
+/* {`p-4 border border-gray-900 rounded-lg hover:shadow-lg flex flex-col items-start text-center
+    ${formData?.budget == item.title && 'shadow-lg border-black'}
+    `} */
+
+
+.borders{
+    border:1px solid gray;
+    border-radius: 1rem;
+}
+
+.outlines{
+    outline: auto;
+}
+
+.paddings{
+    padding: 6px;
+}
+
+.borderbottom{
+    border-bottom: 1px solid rgb(221, 210, 210);
+    border-radius: 100px;
+}
+
+.borderrightleft{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
