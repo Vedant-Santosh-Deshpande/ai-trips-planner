@@ -22,8 +22,8 @@ An intelligent travel assistant that helps users plan trips effortlessly, upload
 
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express.js
-- **Database**: Firebase (Firestore + Storage)
-- **Others**: OpenAI API (if used for AI planning), REST APIs
+- **Database**: Firebase (Firestore + Storage), cloudinary
+- **Others**: Gemini API, REST APIs
 
 ---
 
