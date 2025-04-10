@@ -59,10 +59,10 @@ ai-trip-planner/
 
 \`\`\`bash
 # Clone the repository
-git clone https://github.com/your-username/ai-trip-planner.git
+git clone https://github.com/Vedant-Santosh-Deshpande/ai-trips-planner.git
 
 # Navigate into the folder
-cd ai-trip-planner
+cd ai-trips-planner
 
 # Install dependencies
 npm install
